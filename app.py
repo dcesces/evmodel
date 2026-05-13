@@ -213,6 +213,7 @@ if map_type == "Route Map":
 
     folium.TileLayer(
         tiles=f"https://api.tomtom.com/traffic/map/4/tile/flow/relative/{{z}}/{{x}}/{{y}}.png?key={TOMTOM_KEY}",
+        attr="TomTom Traffic",
         overlay=True,
         opacity=0.7
     ).add_to(m)
