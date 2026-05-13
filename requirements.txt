@@ -1,0 +1,8 @@
+streamlit
+streamlit-folium
+folium
+pandas
+numpy
+scikit-learn
+requests
+openrouteservice
